@@ -1,0 +1,26 @@
+import { ArgsTable, Canvas, Meta, Story } from "@storybook/addon-docs";
+
+# Same content as before
+
+<Canvas>
+  <Story
+    name="standard"
+    args={{
+      size: "large",
+      username: "Tom Coleman",
+      src: "https://avatars2.githubusercontent.com/u/132554",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<ArgsTable story="standard" />
+
+## Usage
+
+Avatar is used to represent a person or an organization. By default the avatar shows an image and gracefully falls back to the first initial of the username. While hydrating the component you may find it useful to render a skeleton template to indicate that Avatar is awaiting data. Avatars can be grouped with the AvatarList component.
+
+### Sizes
+
+// Same content as before
