@@ -1,6 +1,6 @@
 {
   "name": "@alonso.baldioceda/learnstorybook-design-system",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "(Learn Storybook design system):Storybook design systems tutorial",
   "main": "index.js",
