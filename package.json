@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "private": false,
   "description": "Identitas Design System",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/alonso-baldioceda/learnstorybook-design-system.git",
   "author": "Alonso Baldioceda",
   "license": "MIT",
