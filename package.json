@@ -1,6 +1,6 @@
 {
   "name": "@alonso.baldioceda/learnstorybook-design-system",
-  "version": "0.1.3",
+  "version": "0.1.2",
   "private": false,
   "description": "Identitas Design System",
   "main": "dist/index.js",
