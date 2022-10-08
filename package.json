@@ -4,11 +4,8 @@
   "private": false,
   "description": "Identitas Design System",
   "main": "dist/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alonso-baldioceda/learnstorybook-design-system.git"
-  },
-  "author": "Alonso Baldioceda",
+  "repository": "git+https://github.com/alonso-baldioceda/learnstorybook-design-system.git",
+  "author": "Alonso Baldioceda <alonso.baldioceda@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
