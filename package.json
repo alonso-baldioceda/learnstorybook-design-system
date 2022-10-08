@@ -4,7 +4,10 @@
   "private": false,
   "description": "Identitas Design System",
   "main": "dist/index.js",
-  "repository": "https://github.com/alonso-baldioceda/learnstorybook-design-system.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonso-baldioceda/learnstorybook-design-system.git"
+  },
   "author": "Alonso Baldioceda",
   "license": "MIT",
   "dependencies": {
@@ -90,5 +93,9 @@
     "jest": "27",
     "jest-watch-typeahead": "^2.2.0",
     "prettier": "^2.7.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/alonso-baldioceda/learnstorybook-design-system/issues"
+  },
+  "homepage": "https://github.com/alonso-baldioceda/learnstorybook-design-system#readme"
 }
