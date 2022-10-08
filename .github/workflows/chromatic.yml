@@ -2,7 +2,6 @@
 name: "Chromatic"
 # The event that will trigger the action
 on: push
-
 # What the action will do
 jobs:
   test:
