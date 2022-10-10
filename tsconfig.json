@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+  "jsx": "react",
+  "module": "commonjs",
+  "moduleResolution": "node",
+  "preserveConstEnums": true,
+  "strict": true,
+  "target": "es2017",
+  "allowSyntheticDefaultImports": true
+  }
+}
