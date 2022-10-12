@@ -10,7 +10,7 @@ interface ButtonProps {
   px?: number;
   py?: number;
   rounded?: boolean;
-  type?: "button" | "submit" | "reset";
+  type?: "button" | "submit";
 }
 
 const Button: FC<ButtonProps> = ({

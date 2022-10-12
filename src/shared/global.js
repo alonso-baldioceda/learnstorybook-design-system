@@ -6,7 +6,16 @@ export const fontUrl =
   "https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800,900";
 
 export const bodyStyles = css`
-  /* Same as before */
+  /* Typography */
+  .small {
+    font-size: 15px;
+  }
+
+  /* Buttons */
+  .btn {
+    max-width: 260px;
+    min-width: 200px;
+  }
 `;
 
 export const GlobalStyle = createGlobalStyle`
