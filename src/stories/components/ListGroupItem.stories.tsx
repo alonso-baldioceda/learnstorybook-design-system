@@ -7,7 +7,7 @@ import ListGroupItem from "./ListGroupItem";
 import imageFile from "./../../images/svg/bed-single.svg";
 
 export default {
-  title: "ListGroupItem",
+  title: "Components/ListGroupItem",
   component: ListGroupItem,
   args: {
     text: "some text here!!",

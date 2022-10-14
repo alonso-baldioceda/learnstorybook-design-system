@@ -5,7 +5,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Button from "./Button";
 
 export default {
-  title: "Button",
+  title: "Components/Button",
   component: Button,
   args: {
     appearance: "primary",
@@ -61,13 +61,6 @@ export const ButtonPrimary = Template.bind({});
 ButtonPrimary.args = { appearance: "primary" };
 ButtonPrimary.storyName = "Primary";
 
-// export const Secondary = Template.bind({});
-// Secondary.args = { ...Primary.args };
-
-// export const Primary: ComponentStory<typeof Button> = () => (
-//   <Button appearance="primary">Primary</Button>
-// );
-
-// export const Secondary: ComponentStory<typeof Button> = () => (
-//   <Button appearance="secondary">Secondary</Button>
-// );
+export const ButtonSecondary = Template.bind({});
+ButtonSecondary.args = { ...ButtonPrimary.args, appearance: "secondary" };
+ButtonSecondary.storyName = "Secondary";

@@ -5,7 +5,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import ButtonLink from "./ButtonLink";
 
 export default {
-  title: "ButtonLink",
+  title: "Components/ButtonLink",
   component: ButtonLink,
   args: {
     appearance: "primary",
@@ -68,3 +68,10 @@ ButtonLinkPrimary.args = {
   children: "button",
 };
 ButtonLinkPrimary.storyName = "Primary";
+
+export const ButtonLinkSecondary = Template.bind({});
+ButtonLinkSecondary.args = {
+  ...ButtonLinkPrimary.args,
+  appearance: "secondary",
+};
+ButtonLinkSecondary.storyName = "Secondary";

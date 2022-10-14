@@ -13,7 +13,7 @@ const image = {
 };
 
 export default {
-  title: "ListGroup",
+  title: "Components/ListGroup",
   component: ListGroup,
   args: [
     {

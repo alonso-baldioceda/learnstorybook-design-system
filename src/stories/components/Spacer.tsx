@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React, { FC, ReactNode } from "react";
 import classNames from "classnames";
 import styled from "styled-components";
 
@@ -28,13 +28,12 @@ export const StyledSpacing = styled.div`
 `;
 
 // Props
-export interface IProps {
-  anchorid?: string;
+export interface SpacerProps {
   bottomOnly?: boolean;
-  children: any;
+  children: ReactNode | ReactNode[];
 }
 
-const Spacer: FC<IProps> = ({ bottomOnly, children }) => {
+const Spacer: FC<SpacerProps> = ({ bottomOnly, children }) => {
   return (
     <StyledSpacing className={classNames({ "bottom-only": bottomOnly })}>
       {children}

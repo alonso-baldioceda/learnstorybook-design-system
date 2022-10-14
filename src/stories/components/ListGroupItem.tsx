@@ -19,12 +19,15 @@ const StyledListGroupItemIconWrapper = styled.span`
 `;
 
 // Props
-interface IProps {
+interface ListGroupItemProps {
   children?: ReactNode;
   text: string;
 }
 
-const ListGroupItem: FC<IProps> = ({ children = undefined, text }) => {
+const ListGroupItem: FC<ListGroupItemProps> = ({
+  children = undefined,
+  text,
+}) => {
   return (
     <StyledListGroupItem className="d-flex flex-row align-items-center justify-content-center">
       {children && (
