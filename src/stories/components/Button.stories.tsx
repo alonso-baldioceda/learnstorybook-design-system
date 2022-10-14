@@ -15,6 +15,7 @@ export default {
     px: 4,
     py: 2,
     rounded: true,
+    type: "button",
   },
   argTypes: {
     appearance: {
@@ -56,8 +57,9 @@ const Template: ComponentStory<typeof Button> = (args) => (
   <Button {...args}>button</Button>
 );
 
-export const Default = Template.bind({});
-Default.args = { appearance: "primary" };
+export const ButtonPrimary = Template.bind({});
+ButtonPrimary.args = { appearance: "primary" };
+ButtonPrimary.storyName = "Primary";
 
 // export const Secondary = Template.bind({});
 // Secondary.args = { ...Primary.args };

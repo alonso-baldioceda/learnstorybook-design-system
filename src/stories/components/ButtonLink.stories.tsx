@@ -54,5 +54,17 @@ const Template: ComponentStory<typeof ButtonLink> = (args) => (
   <ButtonLink {...args}>link</ButtonLink>
 );
 
-export const Default = Template.bind({});
-Default.args = { appearance: "primary", targetBlank: true };
+export const ButtonLinkPrimary = Template.bind({});
+ButtonLinkPrimary.args = {
+  appearance: "primary",
+  bold: true,
+  disabled: false,
+  mb: 0,
+  px: 4,
+  py: 2,
+  rounded: true,
+  targetBlank: false,
+  url: "https://www.google.com/",
+  children: "button",
+};
+ButtonLinkPrimary.storyName = "Primary";

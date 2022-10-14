@@ -7,17 +7,24 @@ import ListGroupItem from "./ListGroupItem";
 // Assets
 import imageFile from "./../../images/svg/bed-single.svg";
 
-export default {
-  title: "ListGroup",
-  component: ListGroup,
-};
-
 const image = {
   src: imageFile,
   alt: "my image",
 };
 
-export const Default = () => (
+export default {
+  title: "ListGroup",
+  component: ListGroup,
+  args: [
+    {
+      text: "some text here!!",
+      imgSrc: image.src,
+      imgAlt: image.alt,
+    },
+  ],
+};
+
+export const ListWithItems = () => (
   <ListGroup>
     <ListGroupItem text="some text here!!">
       <img src={image.src} alt={image.alt} height={40} width={40} />

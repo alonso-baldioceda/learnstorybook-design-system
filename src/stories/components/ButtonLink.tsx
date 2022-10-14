@@ -1,11 +1,11 @@
 import React, { FC, ReactNode } from "react";
 import classnames from "classnames";
 
-interface ButtonProps {
+interface ButtonLinkProps {
   appearance: string;
   bold?: boolean;
-  children: ReactNode;
-  disabled: boolean;
+  children?: ReactNode;
+  disabled?: boolean;
   mb?: number;
   px?: number;
   py?: number;
@@ -14,7 +14,7 @@ interface ButtonProps {
   url: string;
 }
 
-const ButtonLink: FC<ButtonProps> = ({
+const ButtonLink: FC<ButtonLinkProps> = ({
   appearance = "primary",
   bold = true,
   children,
