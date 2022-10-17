@@ -1,6 +1,7 @@
 import React from "react";
+import theme from "./theme";
 
-import { GlobalStyle } from "../src/shared/global";
+import { GlobalStyle } from "./../src/stories/components/shared/global";
 
 /*
  * Global decorator to apply the styles to all stories
@@ -22,4 +23,7 @@ export const decorators = [
  */
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
+  docs: {
+    theme: theme,
+  },
 };

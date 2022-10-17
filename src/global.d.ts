@@ -5,3 +5,6 @@ declare module "*.svg" {
   const content: any;
   export default content;
 }
+
+// Remove later
+declare module "*";
